@@ -13,9 +13,11 @@
 *MENTOR*:NEELA SANTHOSH
 
 **📊 Startup Profit Prediction using Linear Regression**
+
 This project performs profit prediction for startups using a multiple linear regression model. The model is trained on a dataset of 50 startups with features such as R&D Spend, Administration, Marketing Spend, and State. The objective is to predict the profit based on investment decisions.
 
 **🔍 Objective**
+
 To build a supervised machine learning model that can:
 
 Analyze how different types of spending affect startup profits.
@@ -27,6 +29,7 @@ Evaluate model performance using MSE and R² metrics.
 Visualize insights and prediction accuracy.
 
 **📁 Dataset Information**
+
 **Dataset**: 50_Startups.csv
 Source: Common educational dataset for regression problems
 
@@ -43,6 +46,7 @@ State: Categorical location feature (e.g., California, New York)
 Profit: Target variable (label) to be predicted
 
 **⚙️ Technologies Used**
+
 Python
 
 Pandas & NumPy – Data manipulation
@@ -52,6 +56,7 @@ Matplotlib & Seaborn – Data visualization
 Scikit-learn – Model building and evaluation
 
 **🧪 Project Workflow**
+
 **✅ 1. Importing Libraries**
 Essential Python libraries are imported for data loading, preprocessing, visualization, and machine learning.
 
@@ -92,6 +97,7 @@ R² Score (coefficient of determination)
 Generated a scatter plot comparing actual vs predicted profits with a diagonal red dashed line for reference. This visualization helps evaluate the closeness of predictions.
 
 **📈 Sample Output**
+
 yaml
 Copy
 Edit
@@ -101,11 +107,13 @@ R² Score: 0.92
 This indicates that the model explains 92% of the variance in profit prediction, which is a strong performance for a linear model.
 
 **📂 Output Files**
+
 task2_corr_startup.jpg: Correlation heatmap
 
 task2_startup.jpg: Actual vs Predicted profit scatter plot
 
 **▶️ How to Run the Project**
+
 Ensure you have Python installed.
 
 Install the required packages:
@@ -122,7 +130,9 @@ bash
 Copy
 Edit
 python startup_profit_predict.py
+
 **🔬 Future Enhancements**
+
 Use OneHotEncoding for better handling of categorical data (State).
 
 Apply Regularized Regression (Lasso, Ridge) to reduce overfitting.
@@ -132,6 +142,7 @@ Develop a web interface using Streamlit or Flask for interactive predictions.
 Save and load the trained model using joblib.
 
 **📁 Folder Structure**
+
 Copy
 Edit
 StartupProfitPrediction/
@@ -140,6 +151,8 @@ StartupProfitPrediction/
 ├── task2_corr_startup.jpg
 ├── task2_startup.jpg
 └── README.md
+
 **👩‍💻 Author**
+
 Kavya Banoth
 This project was completed as part of an internship to demonstrate knowledge of data preprocessing, regression modeling, and visualization in Python.
