@@ -156,3 +156,8 @@ StartupProfitPrediction/
 
 Kavya Banoth
 This project was completed as part of an internship to demonstrate knowledge of data preprocessing, regression modeling, and visualization in Python.
+
+**Output Picture**
+
+![Image](https://github.com/user-attachments/assets/8120bc11-4248-4348-b116-0d2a8515f7c6)
+![Image](https://github.com/user-attachments/assets/a641cfa2-4276-4121-b129-1fdd01e4d2e3)
